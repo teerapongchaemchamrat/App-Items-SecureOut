@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:layout_marginRight="@dimen/_170sdp"
+        android:paddingTop="10dp"
+        android:paddingEnd="@dimen/_12sdp"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:text="เอกสารหมายเลข :"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16sdp" />
+
+        <TextView
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:text="ชื่อผู้นำออก :"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="@dimen/_80sdp"
+            android:text="จากบริษัท :"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="@dimen/_120sdp"
+            android:text="สิ่งที่นำออก :"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="@dimen/_160sdp"
+            android:text="ประเภทรถ :"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="@dimen/_200sdp"
+            android:text="ทะเบียน :"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="@dimen/_240sdp"
+            android:text="ลงชื่อผู้นำออก :"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="@dimen/_180sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="@dimen/_280sdp"
+            android:text="ลงชื่อ จนท.รปภ. :"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="@dimen/_180sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="@dimen/_320sdp"
+            android:text="ลงชื่อ จนท. CYF :"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="@dimen/_180sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="@dimen/_360sdp"
+            android:text="ภาพที่ 1 :"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="@dimen/_180sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="@dimen/_400sdp"
+            android:text="ภาพที่ 2 :"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="@dimen/_180sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="@dimen/_440sdp"
+            android:text="ภาพที่ 3 :"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="@dimen/_180sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="@dimen/_480sdp"
+            android:text="ภาพที่ 4 :"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="@dimen/_180sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="@dimen/_520sdp"
+            android:text="ภาพที่ 5 :"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_140sdp"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:paddingTop="10dp"
+        android:paddingEnd="@dimen/_12sdp"
+        android:paddingBottom="10dp">
+
+        <EditText
+            android:id="@+id/txt_doc"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/black"
+            android:background="#CFD3D0"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txt_name"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:text=""
+            android:textColor="@color/black"
+            android:background="#CFD3D0"
+            android:textSize="20dp"
+            android:maxLines="1"
+            android:ellipsize="end"/>
+
+        <TextView
+            android:id="@+id/txt_company"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_80sdp"
+            android:text=""
+            android:textColor="@color/black"
+            android:background="#CFD3D0"
+            android:textSize="20dp"
+            android:maxLines="1"
+            android:ellipsize="end"/>
+
+        <TextView
+            android:id="@+id/txt_item"
+            android:layout_width="@dimen/_170sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_120sdp"
+            android:text=""
+            android:textColor="@color/black"
+            android:background="#CFD3D0"
+            android:textSize="@dimen/_16sdp" />
+<!--            android:maxLines="1"-->
+<!--            android:ellipsize="end"-->
+
+
+        <TextView
+            android:id="@+id/txt_cartype"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_160sdp"
+            android:text=""
+            android:textColor="@color/black"
+            android:background="#CFD3D0"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txt_carreg"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_200sdp"
+            android:text=""
+            android:textColor="@color/black"
+            android:background="#CFD3D0"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txt_draw1"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_240sdp"
+            android:text="ยังไม่ได้ลงชื่อ"
+            android:textColor="@color/black"
+            android:background="#FB144C"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txt_draw2"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_280sdp"
+            android:text="ยังไม่ได้ลงชื่อ"
+            android:textColor="@color/black"
+            android:background="#FB144C"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txt_draw3"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_320sdp"
+            android:text="ยังไม่ได้ลงชื่อ"
+            android:textColor="@color/black"
+            android:background="#FB144C"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txt_image1"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_360sdp"
+            android:text=""
+            android:textColor="@color/black"
+            android:background="#CFD3D0"
+            android:textSize="20dp"
+            android:maxLines="1"
+            android:ellipsize="end"/>
+
+        <TextView
+            android:id="@+id/txt_image2"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_400sdp"
+            android:text=""
+            android:textColor="@color/black"
+            android:background="#CFD3D0"
+            android:textSize="20dp"
+            android:maxLines="1"
+            android:ellipsize="end"/>
+
+        <TextView
+            android:id="@+id/txt_image3"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_440sdp"
+            android:text=""
+            android:textColor="@color/black"
+            android:background="#CFD3D0"
+            android:textSize="20dp"
+            android:maxLines="1"
+            android:ellipsize="end"/>
+
+        <TextView
+            android:id="@+id/txt_image4"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_480sdp"
+            android:text=""
+            android:textColor="@color/black"
+            android:background="#CFD3D0"
+            android:textSize="20dp"
+            android:maxLines="1"
+            android:ellipsize="end"/>
+
+        <TextView
+            android:id="@+id/txt_image5"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_520sdp"
+            android:text=""
+            android:textColor="@color/black"
+            android:background="#CFD3D0"
+            android:textSize="20dp"
+            android:maxLines="1"
+            android:ellipsize="end"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_265sdp"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:paddingTop="10dp"
+        android:paddingEnd="@dimen/_12sdp"
+        android:paddingBottom="10dp">
+
+        <ImageButton
+            android:id="@+id/btn_qr"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="-6dp"
+            android:src="@android:drawable/ic_menu_search" />
+
+        <ImageButton
+            android:id="@+id/btn_draw1"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_234sdp"
+            android:src="@android:drawable/ic_menu_edit"/>
+
+        <ImageButton
+            android:id="@+id/btn_draw2"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_274sdp"
+            android:src="@android:drawable/ic_menu_edit"/>
+
+        <ImageButton
+            android:id="@+id/btn_draw3"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_314sdp"
+            android:src="@android:drawable/ic_menu_edit"/>
+
+        <ImageButton
+            android:id="@+id/btn_image1"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_354sdp"
+            android:src="@android:drawable/ic_menu_camera"/>
+
+        <ImageButton
+            android:id="@+id/btn_image2"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_394sdp"
+            android:src="@android:drawable/ic_menu_camera"/>
+
+        <ImageButton
+            android:id="@+id/btn_image3"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_434sdp"
+            android:src="@android:drawable/ic_menu_camera"/>
+
+        <ImageButton
+            android:id="@+id/btn_image4"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_474sdp"
+            android:src="@android:drawable/ic_menu_camera"/>
+
+        <ImageButton
+            android:id="@+id/btn_image5"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_514sdp"
+            android:src="@android:drawable/ic_menu_camera"/>
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_600sdp"
+        android:text="บันทึก" />
+
+</RelativeLayout>
