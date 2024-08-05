@@ -99,7 +99,7 @@ public class SignaturePad3 extends AppCompatActivity {
         RequestBody docRequestBody = RequestBody.create(MediaType.parse("text/plain"), doc);
 
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://49.0.65.4:3002/secure/")
+                .baseUrl("http://XX.XX.XX.X:XX/secure/")
                 .addConverterFactory(new NullOnEmptyConverterFactory())
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
