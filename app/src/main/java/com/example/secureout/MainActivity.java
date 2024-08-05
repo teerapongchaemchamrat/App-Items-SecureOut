@@ -461,7 +461,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void GetDocById(String Doc_num) {
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://49.0.65.4:3002/secure/")
+                .baseUrl("http://XX.XX.XX.X:XX/secure/")
                 .addConverterFactory(new NullOnEmptyConverterFactory())
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
